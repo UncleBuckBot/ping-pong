@@ -53,7 +53,7 @@ const resetAll = () => {
     p2Btn.removeAttribute('disabled');
     p1Display.classList.remove('win', 'lose');
     p2Display.classList.remove('win', 'lose');
-    winScore = playSelector.value[0];
+    winScore = playSelector.value;
 }
 
 playSelector.addEventListener('input', () => {
